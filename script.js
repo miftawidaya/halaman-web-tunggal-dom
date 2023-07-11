@@ -28,24 +28,24 @@ function generateContent(fragmentId, callback){
 }
 
 
-// fungsi ini akan menampilkan teks lokasi # pada id app
+// fungsi ini akan menampilkan teks lokasi # pada id article
 function loadContent(){
-  var contentDiv = document.getElementById("app"); // mengambil id app
-  // contentDiv.innerHTML = location.hash; // menampilkan teks lokasi # pada id app contoh: #home
+  var contentDiv = document.getElementById("article"); // mengambil id article
+  // contentDiv.innerHTML = location.hash; // menampilkan teks lokasi # pada id article contoh: #home
 
   // menghapus tanda # pada teks lokasi # dengan substring(1) yang berarti menghapus karakter pertama
   fragmentId = location.hash.substring(1);
 
-  // menampilkan teks lokasi # pada id app tanpa tanda #
+  // menampilkan teks lokasi # pada id article tanpa tanda #
   contentDiv.innerHTML = "<h1 style='color:green'>" + fragmentId + "</h1>";
 
   /**
    * memanggil fungsi generateContent() dengan parameter fragmentId dan callback function
    * callback function akan dijalankan pada saat fungsi generateContent() dipanggil callback(content);
-   * callback(content) akan menampilkan teks lokasi # pada id app tanpa tanda #
+   * callback(content) akan menampilkan teks lokasi # pada id article tanpa tanda #
    */
   generateContent(fragmentId, function (content) {
-    // menampilkan teks lokasi # pada id app tanpa tanda #
+    // menampilkan teks lokasi # pada id article tanpa tanda #
     contentDiv.innerHTML += "<p>" + content + "</p>";
   });
 }
@@ -56,7 +56,7 @@ if(!location.hash){
 }
 
 // otomatis memuat fungsi loadContent() pada saat pertama dimuat
-// jadi jika tanpa event hashchange, setelah klik menu harus reload manual agar teks lokasi # muncul pada id app
+// jadi jika tanpa event hashchange, setelah klik menu harus reload manual agar teks lokasi # muncul pada id article
 loadContent();
 
 // berfungsi untuk memanggil fungsi loadContent() pada saat terjadi terjadi perubahan hash (#) yang diakibatkan oleh klik menu.
