@@ -13,5 +13,5 @@
 ## Referensi belajar
 - [https://itnext.io/build-a-single-page-web-app-javascript-and-the-dom-90c99b08f8a9 ](https://itnext.io/build-a-single-page-web-app-javascript-and-the-dom-90c99b08f8a9 )
 
-## Demo
-- Contoh halaman web yang dibuat dengan menggunakan satu file index.html saja dapat dilihat pada github page
+## Demo halaman web
+- Contoh halaman web bisa dilihat di [https://miftawidaya.github.io/halaman-web-tunggal-dom/](https://miftawidaya.github.io/halaman-web-tunggal-dom/)
