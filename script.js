@@ -37,7 +37,7 @@ function loadContent(){
   fragmentId = location.hash.substring(1);
 
   // menampilkan teks lokasi # pada id article tanpa tanda #
-  contentDiv.innerHTML = "<h1 style='color:green'>" + fragmentId + "</h1>";
+  contentDiv.innerHTML = `<h1>${fragmentId}</h1>`;
 
   /**
    * memanggil fungsi generateContent() dengan parameter fragmentId dan callback function
