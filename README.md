@@ -6,9 +6,9 @@
 - Halaman web yang dibuat dapat diakses dengan menggunakan URL yang berbeda
 - History pada browser dapat digunakan untuk mengakses halaman web yang dibuat dengan menggunakan tombol back dan forward
 
-## Contoh
-- Ketika diklik menu about, maka akan menampilkan halaman web about dan URL akan berubah menjadi `http://localhost:8000/#about`
-- Ketika ingin mengakses halaman web contact, maka gunakan URL: `http://localhost:8000/#contact` dan javascript akan menampilkan halaman web contact
+## Contoh Cara Kerja
+- Ketika diklik menu about, maka akan menampilkan halaman web about dan URL akan berubah menjadi `https://miftawidaya.github.io/halaman-web-tunggal-dom/#about`
+- Ketika ingin mengakses halaman web contact, maka gunakan URL: [https://miftawidaya.github.io/halaman-web-tunggal-dom/#contact](https://miftawidaya.github.io/halaman-web-tunggal-dom/#contact) dan javascript akan menampilkan halaman web contact.
 
 ## Referensi belajar
 - [https://itnext.io/build-a-single-page-web-app-javascript-and-the-dom-90c99b08f8a9 ](https://itnext.io/build-a-single-page-web-app-javascript-and-the-dom-90c99b08f8a9 )
