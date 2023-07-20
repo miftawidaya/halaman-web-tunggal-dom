@@ -9,7 +9,7 @@ function generateContent(fragmentId, callback){
    * contoh: jika klik menu about, maka fragmentId = about, maka pages[fragmentId] akan mengembalikan nilai "Ini adalah halaman About"
    */
   var pages = {
-      home: "Selamat datang di halaman Home",
+      home: "Selamat datang di halaman Home. Ini adalah contoh halaman Web yang dibuat hanya dengan satu file HTML saja menggunakan Javascript dan DOM.",
       about: "Ini adalah halaman About",
       contact: "Hubungi kami jika ada yang perlu ditanyakan"
     };
