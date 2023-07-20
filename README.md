@@ -1,4 +1,4 @@
-# Membuat beberapa Halaman Web dengan satu file index.html saja menggunakan Javascript dan DOM
+# Membuat beberapa Halaman Web dengan satu file HTML saja menggunakan Javascript dan DOM
 
 ## Tujuan
 - Efisiensi dalam pengembangan web dengan menggunakan satu file index.html saja
